@@ -29,16 +29,19 @@ module.exports = function (grunt) {
             // ---------------------------------------------------------------------
             clean: {
                 library_after: {
-                    src: ["library-after"]
+                    src: ["<%= pkg.api_dir_after %>"]
                 },
-                dijit_dojox_extras: [
-                    "<%= pkg.api_dir_after %>/dijit",
-                    "<%= pkg.api_dir_after %>/dojox",
-                    // ---------------------------------------------
-                    // Clean up any custom package folders
-                    // ---------------------------------------------
-                    "<%= pkg.api_dir_after %>/extras"
-                ],
+                dijit_dojox_extras: {
+                    src: [
+                        "<%= pkg.api_dir_after %>/dijit",
+                        "<%= pkg.api_dir_after %>/dojox/*",
+                        // ---------------------------------------------
+                        // Clean up any custom package folders
+                        // ---------------------------------------------
+                        "<%= pkg.api_dir_after %>/extras",
+                        "!<%= pkg.api_dir_after %>/dojox/gfx/**"
+                    ]
+                },
                 esri_toolbars: [
                     "<%= pkg.api_dir_after %>/esri/toolbars"
                 ],
@@ -62,7 +65,8 @@ module.exports = function (grunt) {
                         // Keep the files listed below
                         // ---------------------------------------------
                         "!<%= pkg.api_dir_after %>/dojo/nls/dojo_ROOT.js",
-                        "!<%= pkg.api_dir_after %>/dojo/nls/dojo_ja-jp.js"
+                        "!<%= pkg.api_dir_after %>/dojo/nls/dojo_ja-jp.js",
+                        "!<%= pkg.api_dir_after %>/dojo/nls/dojo_en-us.js"
                     ]
                 }
             },
