@@ -1,0 +1,9 @@
+["3.9custom/dojo/dojo.js",
+ "3.9custom/dojo/dojo.js.map",
+ "3.9custom/dojo/nls/dojo_ja-jp.js",
+ "3.9custom/dojo/resources/blank.gif",
+ "3.9custom/dojo/selector/acme.js",
+ "3.9custom/esri/css/esri.css",
+ "3.9custom/esri/dijit/images/ajax-loader.gif",
+ "3.9custom/esri/dijit/images/popup-sprite.png",
+ "3.9custom/esri/images/map/logo-med.png"]

@@ -1,0 +1,22 @@
+// -------------------------------------------------------------------
+// 3.9custom/dijit/themes/claro/claro.css
+// -------------------------------------------------------------------
+["../icons/images/commonIconsObjActDisabled.png",
+ "../icons/images/commonIconsObjActDisabled_rtl.png",
+ "../icons/images/commonIconsObjActEnabled.png",
+ "../icons/images/commonIconsObjActEnabled8bit.png",
+ "../icons/images/commonIconsObjActEnabled8bit_rtl.png",
+ "../icons/images/commonIconsObjActEnabled_rtl.png",
+ "../icons/images/editorIconsDisabled.png",
+ "../icons/images/editorIconsDisabled_rtl.png",
+ "../icons/images/editorIconsEnabled.png",
+ "../icons/images/editorIconsEnabled_rtl.png",
+ "../icons/images/loadingAnimation_rtl.gif"]
+// -------------------------------------------------------------------
+// 3.9custom/dijit/themes/claro/claro_rtl.css
+// -------------------------------------------------------------------
+["../icons/images/commonIconsObjActDisabled_rtl.png",
+ "../icons/images/commonIconsObjActEnabled8bit_rtl.png",
+ "../icons/images/commonIconsObjActEnabled_rtl.png",
+ "../icons/images/editorIconsDisabled_rtl.png",
+ "../icons/images/editorIconsEnabled_rtl.png"]
