@@ -13,5 +13,5 @@
     "time-grunt": "^0.3.1"
   },
   "api_dir_before": "library-before/3.9custom",
-  "api_dir_after": "library-after/3.9custom"
+  "api_dir_after": "library-after/3.9custom-reduced"
 }
